@@ -2,9 +2,9 @@
 
 This repository contains the evaluation code for the Data Compression Challenge. The code evaluates the performance of submitted models on CIFAR-100 and Tiny ImageNet datasets. The evaluation is performed on an NVidia 4090
 
-The sample submission can be downloaded [here](https://drive.google.com/file/d/12Ntz6LclB7N3oCXRzGiN7eawlqMochhA/view?usp=drive_link).
+The sample submission can be downloaded [sample_submission.zip](https://drive.google.com/file/d/12Ntz6LclB7N3oCXRzGiN7eawlqMochhA/view?usp=drive_link).
 
-The Test Set of CIFAR-100 and Tiny-ImageNet can be downloaded [here](https://drive.google.com/file/d/1MZMsEbBHe3gYrq4y4Na3Ogh9sIKecng-/view?usp=drive_link).
+The Test Set of CIFAR-100 and Tiny-ImageNet can be downloaded [reference_data.zip](https://drive.google.com/file/d/1MZMsEbBHe3gYrq4y4Na3Ogh9sIKecng-/view?usp=drive_link).
 
 ## Important Design Notes
 
