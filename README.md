@@ -1,6 +1,6 @@
 # ECCV2024-Dataset-Distillation-Challenge
 
-This repository contains the evaluation code for the Data Compression Challenge. The code evaluates the performance of submitted models on CIFAR-100 and Tiny ImageNet datasets. The evaluation is performed on GPU if available.
+This repository contains the evaluation code for the Data Compression Challenge. The code evaluates the performance of submitted models on CIFAR-100 and Tiny ImageNet datasets. The evaluation is performed on an NVidia 4090
 
 ## Important Design Notes
 
@@ -24,7 +24,9 @@ We do not perform normalization in this evaluation script -- your data must be p
 
 1. Please follow the same heiarchial structure as our sample_submission.
 
-2. Note: "sample_submission" contains 2 files: "cifar100.pt" and "tinyimagenet.pt". Both files contain randomly samples images from the respective datasets at IPC 10. Please follow the same structure when creating and saving your distilled data. 
+2. Please unzip the reference testing data "reference_data.zip" and create the folder structure "./reference_data/{cifar100|tinyimagenet}_test.pt"
+
+3. Please unzip the sample submission data "sample_submission.zip" and create the folder structure "./sample_submission/{cifar100|tinyimagenet}.pt". Note: "sample_submission" contains 2 files: "cifar100.pt" and "tinyimagenet.pt". Both files contain randomly samples images from the respective datasets at IPC 10. Please follow the same structure when creating and saving your distilled data. 
 
 3. To evaluate your data, please set the "--submit_dir {your_path}"
 ```bash
