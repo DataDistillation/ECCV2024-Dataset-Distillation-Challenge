@@ -4,6 +4,8 @@ This repository contains the evaluation code for the Data Compression Challenge.
 
 The sample submission can be downloaded [here](https://drive.google.com/file/d/12Ntz6LclB7N3oCXRzGiN7eawlqMochhA/view?usp=drive_link).
 
+The Test Set of CIFAR-100 and Tiny-ImageNet can be downloaded [here](https://drive.google.com/file/d/1MZMsEbBHe3gYrq4y4Na3Ogh9sIKecng-/view?usp=drive_link).
+
 ## Important Design Notes
 
 Please keep in mind, that the test data is normalized following the standard normalization technqiues for CIFAR100 and TinyImagenet. In particular we assume your distilled data has been learned from a normalized training dataset using:
