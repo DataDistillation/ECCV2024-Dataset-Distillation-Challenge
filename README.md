@@ -24,7 +24,7 @@ Please keep in mind, that the test data is normalized following the standard nor
 We do not perform normalization in this evaluation script -- your data must be pre-normalized (i.e normalized before the distillation following other commone distillation works). The sample submission data represents a random selection at IPC10 for both CIFAR100 and TinyImagenet.
 
 
-## Usage
+## Usage (Track 1)
 
 1. Please follow the same heiarchial structure as our sample_submission.
 
